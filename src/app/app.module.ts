@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
+import { TypewriterDirective } from './directives/typewriter.directive';
 
 @NgModule({
   declarations: [
@@ -18,11 +19,12 @@ import { AboutusComponent } from './components/aboutus/aboutus.component';
     FooterComponent,
     ServicesComponent,
     ContactComponent,
-    AboutusComponent
+    AboutusComponent,
+    TypewriterDirective
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -2,3 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import 'daisyui/dist/full.css'; /* if you want to include all styles */
+
+
+html {
+  scroll-behavior: smooth;
+}

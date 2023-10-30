@@ -16,8 +16,6 @@ export class NavbarComponent {
     } else {
       htmlElement.setAttribute('data-theme', 'acid');
     }
-
-
   }
 
 }
